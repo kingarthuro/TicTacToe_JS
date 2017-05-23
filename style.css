@@ -1,0 +1,27 @@
+.board {
+  display: flex;
+  width: 450px;
+  height: 450px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: block;
+  text-align: center;
+}
+
+.square:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
